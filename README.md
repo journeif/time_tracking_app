@@ -1,19 +1,29 @@
-### Running the app
+# ⏱ Time Tracking App  
 
-1. Ensure you have `npm` installed.
+## 📖 Overview  
+This is a simple time-tracking app built with React. It allows users to track time spent on different tasks and provides persistence using a JSON file.  
 
-Follow the instructions for your platform [here](https://github.com/npm/npm).
+## How to Run the App
 
-2. Install all dependencies:
+1. **Install Dependencies**  
+   First, open your terminal and run the following command to install the necessary dependencies:
 
-````
-npm install
-````
 
-3. Boot the HTTP server
+2. **Start the HTTP Server**  
+Once the dependencies are installed, run the following command to boot the server:
 
-````
-npm run server
-````
 
-The server is now running at [localhost:3000](localhost:3000)
+The server will be running at **http://localhost:3000**.
+
+3. **Open the App in Your Browser**  
+Open your browser and go to **http://localhost:3000** to see the app in action.
+
+## How to Use the App
+- Click **"Start Timer"** to begin tracking time for a task.
+- Click **"Stop Timer"** when done.
+- Click **"Edit"** to modify task details.
+- Click **"Delete"** to remove a task.
+- Refresh the page—your data will be saved even after closing the app.
+
+## Screenshot  
+![App Screenshot](./Screenshot.png)
